@@ -20,7 +20,7 @@ function Projects() {
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
               <Col md={4} className="project-card">
                 <ProjectCards
-                  imgPath="src/assets/images/mediaplayer.jpg"
+                  imgPath="/mediaplayer.jpg"
                   isBlog={false}
                   title="React MediaPlayer 2024"
                   description="A React.js media player enables users to play video files within a web app. It's built using React's components, offering features like play/pause controls,history tracking, and support for various media formats. The player synchronizes UI updates with media events for a seamless experience."
@@ -31,7 +31,7 @@ function Projects() {
 
               <Col md={4} className="project-card">
                 <ProjectCards
-                  imgPath="src/assets/images/calculator.jpg"
+                  imgPath="/calculator.jpg"
                   isBlog={false}
                   title="Calculator"
                   description="A JavaScript calculator is a web tool for basic arithmetic operations, built with buttons for numbers, operators, and functions like clear and equal. Implemented using JavaScript, it performs calculations in real-time, providing users with accurate results and a responsive interface directly within a web browser."

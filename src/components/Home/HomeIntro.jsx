@@ -44,7 +44,7 @@ function HomeIntro() {
                             </div>
                         </Col>
                         <Col md={4} className="myAvtar">
-                            <img src="src/assets/images/character.png" className="img-fluid" alt="avatar" />
+                            <img src="/character.png" className="img-fluid" alt="avatar" />
                         </Col>
                     </Row>
                     <Row>
