@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Jithin T </span>
             from <span className="purple"> Kannur, India.</span>
             <br />
-            I have completed Bachelor of Technology (BTECH) in Information Technology at College of Engineering Trikaripur.
+            I have completed Bachelor of Technology (B.TECH) in Information Technology at College of Engineering Trikaripur.
             <br />
             I'm also have Diploma in Mechatronics
             <br/>

@@ -17,9 +17,11 @@ const Contact = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          alert("Message sent Successfully")
         },
         (error) => {
           console.log('FAILED...', error.text);
+          alert("Message sending Failed")
         },
       );
   };
@@ -35,10 +37,10 @@ const Contact = () => {
           
           <Col>
            <form ref={form} onSubmit={sendEmail} className='form-control card bg-dark'>
-          <input className='mb-3' type="text" placeholder='Name' name='user_name' required />
-              <input className='mb-3' type="email" placeholder='Email Address' name='user_email' required />
-              <input className='mb-3' type="text" placeholder='Subject' name='subject' required />
-              <textarea className='mb-3' name="message" cols="20" rows="10" id=""></textarea>
+          <input className='mb-3 bg-dark text-light rounded' type="text" placeholder='Name' name='user_name' required />
+              <input className='mb-3 bg-dark text-light rounded' type="email" placeholder='Email Address' name='user_email' required />
+              <input className='mb-3 bg-dark text-light rounded' type="text" placeholder='Subject' name='subject' required />
+              <textarea className='mb-3 bg-dark text-light rounded' placeholder='Message' name="message" cols="20" rows="10" id=""></textarea>
               <button type='submit' className='btn btn-primary'>Send Message</button>
           </form>
             

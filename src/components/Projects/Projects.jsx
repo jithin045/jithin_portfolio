@@ -23,9 +23,21 @@ function Projects() {
                   imgPath="/mediaplayer.jpg"
                   isBlog={false}
                   title="React MediaPlayer 2024"
-                  description="A React.js media player enables users to play video files within a web app. It's built using React's components, offering features like play/pause controls,history tracking, and support for various media formats. The player synchronizes UI updates with media events for a seamless experience."
+                  description="A React media player app is a user interface built with the React.JS library. It typically provides features like play, pause, stop, volume control, and displaying media metadata. React's component-based architecture makes it easy to organize and customize different elements of the media player interface."
                   ghLink="https://github.com/jithin045/React-MediaPlayer-2024"
                   demoLink="https://react-media-player-2024.vercel.app/"
+                />
+              </Col>
+
+              <Col md={4} className="project-card">
+                <ProjectCards
+                  imgPath="/reduxcart.jpg"
+                  isBlog={false}
+                  title="Redux-Cart"
+                  description="A React Redux shopping cart ecommerce app is a web application built using the React JavaScript library for user interface components and Redux for managing the application's state.
+                  In this app, users can browse through a catalog of products, add items to their shopping cart, adjust quantities, and proceed to checkout."
+                  ghLink="https://github.com/jithin045/ReduxCart"
+                  demoLink="https://redux-cart-gamma-indol.vercel.app/"
                 />
               </Col>
 
