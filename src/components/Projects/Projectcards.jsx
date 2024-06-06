@@ -8,7 +8,7 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Body>
-        <Card.Img className="project-card-img" variant="top" src={props.imgPath} alt="card-img" style={{ width: "300px", height: "150px",marginBottom:"20px" }} />
+        <Card.Img className="project-card-img" variant="top" src={props.imgPath} alt="card-img" style={{ width: "250px", height: "150px",marginBottom:"20px" }} />
 
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
