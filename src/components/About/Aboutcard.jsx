@@ -14,17 +14,19 @@ function AboutCard() {
             I have completed Bachelor of Technology (B.TECH) in Information Technology at College of Engineering Trikaripur.
             <br />
             I'm also have Diploma in Mechatronics
-            <br/>
+            <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
-            <li className="about-activity mb-5">
+            <li className="about-activity mb-2">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity mb-5">
+              <ImPointRight /> Photography
             </li>
           </ul>
 
-          <footer className="blockquote-footer">Jithin</footer>
         </blockquote>
       </Card.Body>
     </Card>
