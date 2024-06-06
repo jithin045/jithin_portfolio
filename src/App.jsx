@@ -9,13 +9,14 @@ import Contact from './components/Contact/Contact';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { Routes, Route } from 'react-router-dom'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
 
   return (
     <>
-      
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -24,6 +25,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
+      <ToastContainer/>
     </>
   )
 }

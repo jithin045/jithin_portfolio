@@ -18,7 +18,7 @@ function Projects() {
               Here are a few projects I've worked on recently.
             </p>
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-              <Col md={4} className="project-card">
+              <Col lg={4} md={6} sm={12} className="project-card">
                 <ProjectCards
                   imgPath="/mediaplayer.jpg"
                   isBlog={false}
@@ -29,7 +29,7 @@ function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col lg={4} md={6} sm={12} className="project-card">
                 <ProjectCards
                   imgPath="/reduxcart.jpg"
                   isBlog={false}
@@ -41,7 +41,7 @@ function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col lg={4} md={6} sm={12} className="project-card">
                 <ProjectCards
                   imgPath="/calculator.jpg"
                   isBlog={false}

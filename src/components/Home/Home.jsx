@@ -29,7 +29,7 @@ function Home() {
                                     </h1>
 
                                     <div style={{ padding: 40, textAlign: "left" }}>
-                                        <h1><Type /></h1>
+                                        <h1 className='Typewriter'><Type /></h1>
                                     </div>
                                 </div>
                             </Col>

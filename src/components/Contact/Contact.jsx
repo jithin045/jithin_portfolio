@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { Row, Col } from 'react-bootstrap';
 import ParticlesComponent from '../Particles/ParticleComponent'
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const Contact = () => {
@@ -17,11 +18,15 @@ const Contact = () => {
       .then(
         () => {
           console.log('SUCCESS!');
-          alert("Message sent Successfully")
+          toast.success("Message sent Successfully!!", {
+            position: "bottom-center"
+          });
         },
         (error) => {
           console.log('FAILED...', error.text);
-          alert("Message sending Failed")
+          toast.error("Message sending Failed!!", {
+            position: "bottom-center"
+          })
         },
       );
   };
@@ -48,6 +53,7 @@ const Contact = () => {
         </Row>
       </div>
     </section>
+    <ToastContainer/>
     </>
   )
 }
