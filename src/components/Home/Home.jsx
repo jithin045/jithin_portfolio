@@ -14,7 +14,7 @@ function Home() {
                 <Container fluid className="home-section" id="home">
                     <Container className="home-content" style={{ marginTop: 120, marginBottom: 115 }}>
                         <Row>
-                            <Col sm={12} md={8} className="home-header">
+                            <Col sm={12} md={7} className="home-header">
                                 <div style={{ textAlign: "center", color: "white", marginTop: 100 }}>
                                     <h1 className="heading">
                                         Hi There!{" "}
@@ -28,13 +28,13 @@ function Home() {
                                         <strong className="purple"> JITHIN T</strong>
                                     </h1>
 
-                                    <div style={{  textAlign: "left" }}>
+                                    <div style={{  textAlign: "center" }}>
                                         <h1 className='typewriter'><Type /></h1>
                                     </div>
                                 </div>
                             </Col>
 
-                            <Col sm={12} md={8}>
+                            <Col sm={12} md={4}>
                                 <img
                                     src="https://openedx.org/wp-content/uploads/2019/01/Community-Develop-Illustration-2.png"
                                     alt="home pic"

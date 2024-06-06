@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -35,7 +35,7 @@ function Header() {
                         <Nav.Link as={Link} className='me-5 text-white' id='navlink' to="/about" href="#about"><i className="fa-solid fa-user me-1"></i> About</Nav.Link>
                         <Nav.Link as={Link} className='me-5 text-white' id='navlink' to="/projects" href="#projects"><i className="fa-solid fa-laptop-code me-1"></i> Projects</Nav.Link>
                         <Nav.Link as={Link} className='me-5 text-white' id='navlink' to="/contact" href="#contact"><i className="fa-solid fa-phone me-1"></i> Contact</Nav.Link>
-                        <Nav.Link className='me-5 text-white' id='navlink'  href="/jithin_t_cv.pdf" download={"jithin_t_cv.pdf"}><i className="fa-solid fa-download me-1"></i>Download CV</Nav.Link>
+                        <Nav.Link className='me-5 text-white' id='navlink' href="/jithin_t_cv.pdf" download={"jithin_t_cv.pdf"}><i className="fa-solid fa-download me-1"></i>Download CV</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
