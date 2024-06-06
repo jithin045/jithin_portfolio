@@ -42,11 +42,11 @@ const Contact = () => {
           
           <Col>
            <form ref={form} onSubmit={sendEmail} className='form-control card bg-dark'>
-          <input className='mb-3 bg-dark text-light rounded' type="text" placeholder='Name' name='user_name' required />
-              <input className='mb-3 bg-dark text-light rounded' type="email" placeholder='Email Address' name='user_email' required />
-              <input className='mb-3 bg-dark text-light rounded' type="text" placeholder='Subject' name='subject' required />
+          <input className='mb-3 bg-light text-light rounded' type="text" placeholder='Name' name='user_name' required />
+              <input className='mb-3 bg-light text-light rounded' type="email" placeholder='Email Address' name='user_email' required />
+              <input className='mb-3 bg-light text-light rounded' type="text" placeholder='Subject' name='subject' required />
               <textarea className='mb-3 bg-dark text-light rounded' placeholder='Message' name="message" cols="20" rows="10" id=""></textarea>
-              <button type='submit' className='btn btn-primary'>Send Message</button>
+              <button type='submit' className='btn btn-primary rounded'>Send Message</button>
           </form>
             
           </Col>
