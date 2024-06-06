@@ -16,7 +16,7 @@ function HomeIntro() {
                                     I'm very much interested in programming and I have at least learnt
                                     something, I think… 🤷‍♂️
                                     <br />
-                                    <br />I am fluent in classics like
+                                    <br />I am good in classics like
                                     <i>
                                         <b className="purple"> C Programming and Javascript. </b>
                                     </i>
@@ -38,7 +38,7 @@ function HomeIntro() {
                                     </i>
                                     &nbsp; like
                                     <i>
-                                        <b className="purple"> React.js and Angular.js</b>
+                                        <b className="purple"> React.js and Angular</b>
                                     </i>
                                 </p>
                             </div>

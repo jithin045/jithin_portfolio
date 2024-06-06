@@ -28,7 +28,7 @@ function Home() {
                                         <strong className="purple"> JITHIN T</strong>
                                     </h1>
 
-                                    <div style={{ padding: 40, textAlign: "left" }}>
+                                    <div style={{  textAlign: "left" }}>
                                         <h1 className='typewriter'><Type /></h1>
                                     </div>
                                 </div>
