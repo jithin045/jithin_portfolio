@@ -53,6 +53,30 @@ function Projects() {
               </Col>
 
             </Row>
+            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+              <Col lg={4} md={6} sm={12} className="project-card">
+                <ProjectCards
+                  imgPath="/ekart.png"
+                  isBlog={false}
+                  title="E-Kart"
+                  description="The eCommerce Application (E-Kart) offers secure user authentication, detailed product listings, advanced search options. Implemented secure and verified payment section without the leakage of user data. Technologies used: Angular, Node JS, Express JS, MongoDB."
+                  ghLink="https://github.com/jithin045/ekart"
+                  demoLink="https://ekart-jet.vercel.app/"
+                />
+              </Col>
+
+              <Col lg={4} md={6} sm={12} className="project-card">
+                <ProjectCards
+                  imgPath="/projectfair.png"
+                  isBlog={false}
+                  title="Project Fair"
+                  description="Developed a ProjectFair Application to post and display different user projects. The application features a user-friendly interface, robust authentication and security measures. Technologies used: React JS, Node JS, Express JS, MongoDB."
+                  ghLink="https://github.com/jithin045/Project-Fair"
+                  demoLink="https://project-fair-kohl.vercel.app/"
+                />
+              </Col>
+
+            </Row>
           </Container>
         </Container>
       </section>
