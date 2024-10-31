@@ -81,7 +81,7 @@ function Projects() {
                   imgPath="/jmovies.png"
                   isBlog={false}
                   title="J Movies"
-                  description="Developed a movie booking system with separate interfaces for users, administrators and theatre owners.The application features a user-friendly interface, robust authentication and security measures.Technologies used: React JS, Node JS, Express JS, MongoDB."
+                  description="Developed a movie booking system (Jmovies) with separate interfaces for users, administrators and theatre owners.The application features a user-friendly interface, robust authentication and security measures.Technologies used: React JS, Node JS, Express JS, MongoDB."
                   ghLink="https://github.com/jithin045/jmovies"
                   demoLink="https://jmovies.onrender.com"
                 />
