@@ -76,6 +76,17 @@ function Projects() {
                 />
               </Col>
 
+              <Col lg={4} md={6} sm={12} className="project-card">
+                <ProjectCards
+                  imgPath="/jmovies.png"
+                  isBlog={false}
+                  title="J Movies"
+                  description="Developed a movie booking system with separate interfaces for users, administrators and theatre owners.The application features a user-friendly interface, robust authentication and security measures.Technologies used: React JS, Node JS, Express JS, MongoDB."
+                  ghLink="https://github.com/jithin045/jmovies"
+                  demoLink="https://jmovies.onrender.com"
+                />
+              </Col>
+
             </Row>
           </Container>
         </Container>
