@@ -14,7 +14,7 @@ function About() {
           <Container>
             <Row style={{ justifyContent: "center", padding: "10px", marginTop: 100, color: 'white' }}>
               <Col
-                md={7}
+                md={9}
                 style={{
                   justifyContent: "center",
                   paddingTop: "30px",
@@ -27,11 +27,11 @@ function About() {
                 <AboutCard />
               </Col>
               <Col
-                md={5}
+                md={3}
                 style={{ paddingTop: "30px", paddingBottom: "20px"}}
                 className="about-img"
               >
-                <img src='https://gcitconsult.com/assets/img/welcome/thumb_1.png' alt="about" className="img-fluid" />
+                <img src='jith-wobg.png' alt="about" className="img-fluid" />
               </Col>
             </Row>
 

@@ -36,10 +36,10 @@ function Home() {
 
                             <Col sm={12} md={4}>
                                 <img
-                                    src="https://openedx.org/wp-content/uploads/2019/01/Community-Develop-Illustration-2.png"
+                                    src="jithin.jpg"
                                     alt="home pic"
                                     className="img-fluid"
-                                    style={{ maxHeight: "450px" }}
+                                    style={{ maxHeight: "320px",opacity:"70%", borderRadius:"50%" }}
                                 />
                             </Col>
                         </Row>

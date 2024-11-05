@@ -7,7 +7,7 @@ function HomeIntro() {
             <Container fluid className="home-about-section" id="about">
                 <Container>
                     <Row>
-                        <Col md={8} className="home-about-description" style={{ textAlign: "center", color: "white", marginTop: 100, marginBottom: 100 }}>
+                        <Col md={12} className="home-about-description" style={{ textAlign: "center", color: "white", marginTop: 100, marginBottom: 100 }}>
                             <div>
                                 <h1 style={{ fontSize: "2.6em", marginBottom: 50 }}>
                                     LET ME <span className="purple text-primary"> INTRODUCE </span> MYSELF
@@ -18,7 +18,7 @@ function HomeIntro() {
                                     <br />
                                     <br />I am good in classics like
                                     <i>
-                                        <b className="purple"> C Programming and Javascript. </b>
+                                        <b className="purple"> Javascript and Python. </b>
                                     </i>
                                     <br />
                                     <br />
@@ -29,7 +29,7 @@ function HomeIntro() {
                                     <br />
                                     <br />
                                     I also apply my passion for developing products
-                                    with <b className="purple">Node.js</b> and
+                                    with
                                     <i>
                                         <b className="purple">
                                             {" "}
@@ -43,9 +43,9 @@ function HomeIntro() {
                                 </p>
                             </div>
                         </Col>
-                        <Col md={4} className="myAvtar">
+                        {/* <Col md={4} className="myAvtar">
                             <img src="/character.png" className="img-fluid" alt="avatar" />
-                        </Col>
+                        </Col> */}
                     </Row>
                     <Row>
                         <Col md={12} className="home-about-social" style={{ marginBottom: 100 }}>
