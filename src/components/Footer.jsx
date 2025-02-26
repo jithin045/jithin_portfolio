@@ -10,7 +10,7 @@ function Footer() {
             <h6>Designed and Developed by Jithin</h6>
           </Col>
           <Col md="4" className="text-center footer-copywright">
-            <h6>Copyright © 2024 jithin</h6>
+            <h6>Copyright © 2025 jithin</h6>
           </Col>
           <Col md="4" className="footer-body">
             <div className='footer-icons d-flex flux-column justify-content-evenly'>
